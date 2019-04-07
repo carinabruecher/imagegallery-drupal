@@ -14,7 +14,7 @@ base:
   css:
     theme:
       static/css/fortytwo.css: {}
-
+      css/style.css : {}
 prettify:
   version: 1.x
   js:
