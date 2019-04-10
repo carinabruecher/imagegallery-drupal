@@ -1,0 +1,22 @@
+uuid: 5e877fe5-7832-4c84-9f33-d743488a503b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - charity_zymphonies_theme
+_core:
+  default_config_hash: _7lHtqPqirl3dMSwS5Nmxx4zP9H-H5W2ENf8tqadz44
+id: charity_zymphonies_theme_messages
+theme: charity_zymphonies_theme
+region: highlighted
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

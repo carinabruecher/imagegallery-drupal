@@ -1,0 +1,22 @@
+uuid: bd9b36e2-9c5c-4e69-a1a9-13874b7f68cf
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - zen
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: zen_content
+theme: zen
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

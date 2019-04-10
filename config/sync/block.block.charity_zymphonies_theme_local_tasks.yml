@@ -1,0 +1,22 @@
+uuid: 91c58139-220c-4bb7-ae97-f52d05941aa8
+langcode: en
+status: true
+dependencies:
+  theme:
+    - charity_zymphonies_theme
+_core:
+  default_config_hash: 46VDHuU3nWEGOFNCylDqE9gw6L1UTgF95Sp-94edS0w
+id: charity_zymphonies_theme_local_tasks
+theme: charity_zymphonies_theme
+region: content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

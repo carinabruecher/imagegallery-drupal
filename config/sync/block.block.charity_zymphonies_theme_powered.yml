@@ -1,0 +1,22 @@
+uuid: 093af4a2-2494-480a-b49f-591bcf438aa8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - charity_zymphonies_theme
+_core:
+  default_config_hash: Yf_4dVfWdPEyi8qfa3kVh17uEfEIpCwOx9wcXu3dKL4
+id: charity_zymphonies_theme_powered
+theme: charity_zymphonies_theme
+region: auto_hidden_block
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

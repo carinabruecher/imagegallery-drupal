@@ -1,0 +1,26 @@
+uuid: 1b5c788f-cd86-43c3-b2d0-f7f0234a9d19
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - charity_zymphonies_theme
+_core:
+  default_config_hash: watc-yf-25FgPsWPLf3nSxp3WczQfePJZXVCiv_hMW0
+id: charity_zymphonies_theme_account_menu
+theme: charity_zymphonies_theme
+region: header
+weight: 11
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }

@@ -1,11 +1,11 @@
-uuid: e1345826-f63d-4621-bb1c-ee5843b65ba5
-name: 'Drush Site-Install'
+uuid: 46e22b21-d9e3-4e46-a587-0f7ca01daa36
+name: picbunny
 mail: admin@example.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/2
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

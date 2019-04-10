@@ -1,0 +1,22 @@
+uuid: 9e5080cb-1a77-4344-a29c-8ed19cb9c561
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - charity_zymphonies_theme
+_core:
+  default_config_hash: 2H0M85aUFA6CSOxcvnOZRon1TWM1LHGlHPc-S7pCB24
+id: charity_zymphonies_theme_search
+theme: charity_zymphonies_theme
+region: search
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

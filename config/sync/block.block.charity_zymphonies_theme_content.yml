@@ -1,0 +1,22 @@
+uuid: c9371d70-b757-4138-8366-f34dfe3dedb6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - charity_zymphonies_theme
+_core:
+  default_config_hash: FI6JjTQMCJYDG33GEyTzhFanFaTD8rF8fNxjtQx07do
+id: charity_zymphonies_theme_content
+theme: charity_zymphonies_theme
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 7c4753cf-8519-48ca-b73e-c4a4f2771afb
+langcode: en
+status: true
+dependencies:
+  theme:
+    - charity_zymphonies_theme
+_core:
+  default_config_hash: EOpmWkvmwPwDdnqbU7aSoxZrOcTpTDybIvpBB5Z02uM
+id: charity_zymphonies_theme_page_title
+theme: charity_zymphonies_theme
+region: page_title
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

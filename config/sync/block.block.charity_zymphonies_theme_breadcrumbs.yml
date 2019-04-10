@@ -1,0 +1,22 @@
+uuid: d25e4e08-44d9-4e12-a65c-683285d0c41b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - charity_zymphonies_theme
+_core:
+  default_config_hash: k4u4gIj8-DqNUWetIL1wWWDLjGgR5FASim79wnvL6Mc
+id: charity_zymphonies_theme_breadcrumbs
+theme: charity_zymphonies_theme
+region: breadcrumb
+weight: -100
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

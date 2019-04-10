@@ -1,0 +1,22 @@
+uuid: 1d753534-efd9-40c8-b55f-1f430bfa48eb
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - fortytwo
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: fortytwo_help
+theme: fortytwo
+region: header
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
